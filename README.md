@@ -16,7 +16,7 @@ Exploration and Discovery: Traverse through beautifully crafted environments, ea
 Mind-Bending Puzzles: Test your problem-solving skills with a variety of mind-bending puzzles, ranging from riddles and logic challenges to pattern recognition and hidden object quests.
 Item Collection and Management: Gather a diverse array of items throughout your journey, each with its own special abilities and uses. Strategically manage your inventory to overcome obstacles and unlock new areas.
 
-4. How to play
+3. How to play
 - Navigate through the game using text-based commands and choices presented to you (NORTH, SOUTH, EAST, WEST)
 - Interact with the environment by examining objects, solving puzzles, and collecting items.
 - Use your collected items strategically to overcome obstacles and unlock new areas.
