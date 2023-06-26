@@ -8,9 +8,7 @@ class Player{
 		int score;
 		string curLocName;
 		Item *inventory;
-//		Location *currentRoom;
 
-		
 	public:
 		Player(string n){
 			name = n;
@@ -26,7 +24,7 @@ class Player{
 	        inventory = inventory->getNextItem();
 	        delete temp;
 		}
-	}
+		}
 		
 		//setter
 		void setCurrentLocation(string loc){
@@ -48,10 +46,8 @@ class Player{
 		
 		string getCurrentLocation() const {
         	return curLocName;
-    	}
+    		}
 
-	
-//		Item* getInventory() const;
 		
 		bool hasItem(Item *item){
 			Item *current = inventory;
@@ -68,7 +64,7 @@ class Player{
 		void addInventory(Item *item){
 			if(hasItem(item)){
 				return;
-	}
+			}
 	
 			if(inventory == nullptr){
 				inventory = item;
@@ -83,7 +79,7 @@ class Player{
 			}
 			
 		score += item->getScore();
-}
+		}
 
 		void showInventory() {
 		    if (inventory == nullptr) {
@@ -97,7 +93,7 @@ class Player{
 		        }
 		        cout << endl;
 		    }
-}
+		}
 		
 		
 		
