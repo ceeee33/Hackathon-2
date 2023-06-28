@@ -119,4 +119,4 @@ The player has won the game and the progress will be saved to a file based on th
 
 
 8. **Link of game demo video**
-   https://youtu.be/htAwz3u-IsQ
+   https://youtu.be/GdNT-DGYlwI
