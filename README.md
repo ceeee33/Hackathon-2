@@ -41,6 +41,7 @@ Realm of Enigmas is developed using object-oriented concepts to enhance code org
 There are 4 classes in our project. The class names are “Item.h”, “Player.h”, “Location.h” and “Main.h”. “Player.h” and “Location.h” composite to “Item.h” since both player and location contain items. “Player.h” requires “Item.h” to set inventory list while “Location.h” requires “Item.h” to set items that can be collected by the player. On the other hand“Game.h” composites to “Player.h” and “Location.h” because a game requires a player and locations to set up.
 
 The relationship between each class is shown in the UML diagram below.:
+
 ![class diagram](https://github.com/ceeee33/Hackathon-2/assets/118290498/0e34ade2-1fcf-4741-96d2-37280e97368e)
 
 
