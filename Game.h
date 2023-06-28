@@ -129,7 +129,7 @@ void Game::start(const string& name){
 	//Set up the game
 	createGame();
 	
-	cout << "Welcome to the world of darkness and shadows, where fear lurks in every corner and the unknown beckons. Prepare yourself for an immersive horror experience as you step into the depths of a chilling adventure." << endl << endl;
+	cout << endl << "In a dreary city, a struggling protagonist becomes entangled in a monotonous existence. Yearning for a change, they stumble upon a mysterious opportunity promising wealth and transformation. Driven by desperation and curiosity, they take the leap, unknowingly entering a treacherous game that tests their mettle. As the doors open to an enigmatic world, they confront danger, secrets, and the price of freedom. Will they conquer the challenges?" << endl << endl;
 	
 	//Set the player's name
 	player = new Player;
@@ -515,6 +515,7 @@ bool Game::quit(){ // If return 1, quit the game
 
 	}else{
 		saveProgress();
+		cout << endl << " Though your journey in the game was cut short, we appreciate your participation and the courage it took to embark on this adventure. Remember, every experience contributes to the tapestry of your life, shaping the person you are becoming. As you move forward, may you find new paths that ignite your curiosity and lead you to extraordinary discoveries." << endl;
 		cout << "Thanks for playing the game. See you next time! " << endl;
 		return 1;
 	}
@@ -537,7 +538,7 @@ U /"___|   \/"_ \/ | \ |"| U /"___|uU |  _"\ u U  /"\  u  |_ " _|U |"|u| |  |"| 
 (__)(__)    (__)   (_")  (_/(__)__)  (__)  (__)(__)  (__)(__) (__)   (__)  (_")("_)(__)  (__)(__) (__)\_)-' '-(_/  (__)   (_")  (_/   )" << endl;
 	
 	cout << endl;
-	cout << "You have successfully escape from all room!" << endl;
+	cout << "Congratulations, victorious champion! You have overcome all challenges and emerged as the winner of the game. Your determination and skill have led you to claim the ultimate prize. Enjoy the glory of your achievement! Well done!" << endl;
 	cout << "Your score: " << player->getScore() << endl << endl;
 	cout << "Saving your progress. You can come back next time to collect more items and improve your score!" << endl;
 	saveProgress();
