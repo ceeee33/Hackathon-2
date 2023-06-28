@@ -66,14 +66,32 @@ The relationship between each class is shown in the UML diagram below.:
 
    
    ![Screenshot 2023-06-28 143323](https://github.com/ceeee33/Hackathon-2/assets/117928541/6e45b801-2230-4a5a-8d0f-6b9d77a04c8c)
+   The examine action is called out by the user to know about the current location and its description in case the player has forgetten which location he/she at.
+   
    ![Screenshot 2023-06-28 143418](https://github.com/ceeee33/Hackathon-2/assets/117928541/4873e7e3-427a-47bf-ac52-d416ef12351b)
+   In this picture, the player has called out the show inventory action to check the items that he/she has collected previously. Then, the player called out collect items action to collect the item that they felt it is neccessary to unlock the location. After they collceted the item, the program will shows their current score and the successful status of the collected items.
+   
    ![Screenshot 2023-06-28 143448](https://github.com/ceeee33/Hackathon-2/assets/117928541/a1aa49ab-a8dc-4300-add3-b82803b7c01d)
+   After that, the player collect another item then he called out show inventory items to check the items and description to know more about these items. 
+   
    ![Screenshot 2023-06-28 143529](https://github.com/ceeee33/Hackathon-2/assets/117928541/ffd5e10c-6bfc-4e13-a423-be0b51473e14)
+   The player wished to perform move action, however, he failed to do so as he does not fulfilled the condition required.
+   
    ![Screenshot 2023-06-28 143628](https://github.com/ceeee33/Hackathon-2/assets/117928541/25a0d8dd-9ee5-4ad5-912b-76d39276d54d)
+   The player is using the items in his inventory one by one to unlock the next location. Fortunately, one of the items that he had collected is the ley item. So, he is able to unlock the next location. This program will automatically move the player to the next room once the player successfully unlocked the next location.
+
    ![Screenshot 2023-06-28 143705](https://github.com/ceeee33/Hackathon-2/assets/117928541/8fa24305-50b3-492b-8364-b470f581704b)
+   So, the name and description for the next location had given once they entered this location
+
    ![Screenshot 2023-06-28 143859](https://github.com/ceeee33/Hackathon-2/assets/117928541/39e0e08d-434b-4814-b5d0-ae10758eb639)
+   The player is trying to collect the item that he feels is important.
+   
    ![Screenshot 2023-06-28 143925](https://github.com/ceeee33/Hackathon-2/assets/117928541/47791575-063e-4c15-a29c-2d9b96f2ff40)
+   Then, the player uses one of the items that he collected in the second location to unlock the third location and the details of the next location is given.
+
    ![Screenshot 2023-06-28 144018](https://github.com/ceeee33/Hackathon-2/assets/117928541/b65e1248-1664-4094-ae1c-1a393ea933c4)
+   The player is performing the same actions
+
    ![Screenshot 2023-06-28 144112](https://github.com/ceeee33/Hackathon-2/assets/117928541/c25e1d5f-28b4-4cb0-8e89-7b740bef94f2)
    ![Screenshot 2023-06-28 144138](https://github.com/ceeee33/Hackathon-2/assets/117928541/44e30065-9803-4cdd-9834-d33beb091d2d)
    ![Screenshot 2023-06-28 144203](https://github.com/ceeee33/Hackathon-2/assets/117928541/ada5b417-910f-4cb5-ba7d-3b1042254357)
