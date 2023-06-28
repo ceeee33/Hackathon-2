@@ -3,26 +3,32 @@
    
 Welcome to the mesmerizing realm of "Realm of Enigmas," a captivating text-based adventure game that transports you to a world brimming with intrigue and secrets. Prepare yourself for a thrilling journey as you navigate through a series of immersive environments, each offering its own unique blend of challenges and enigmatic wonders.
 
-Delve into the depths of ancient caves, where darkness conceals ancient riddles and hidden passages. Feel the mist on your face as you venture into a dark forest, with its enchanting waterfalls and whispers of forgotten secrets. Plunge into the depths of an underwater world, where vibrant marine life and hidden treasures await your discovery. Step into the realm of a time tunnel, where the boundaries of past, present, and future blur, presenting you with mind-bending conundrums.
+Delve into the depths of ancient caves, where darkness conceals ancient riddles and hidden passages. Feel the mist on your face as you venture into a dark forest, with its enchanting waterfalls and whispers of forgotten secrets. Plunge into the depths of an underwater world, where vibrant marine life and hidden treasures await your discovery. Step into the realm of a time tunnel, where the boundaries of past, present, and future blur, presenting you with mind-bending conundrums. As you progress, exercise your wit, logic, and intuition to overcome the challenges that lie in your path. 
 
-In this enthralling adventure, you'll encounter mythical creatures, engage in thought-provoking conversations with enigmatic characters, and uncover ancient artifacts that hold the key to unraveling the mysteries that shroud the realm. Your journey will be guided by a captivating narrative, inviting you to delve deeper into the realm's rich lore and forge your own path through a series of choices and actions. As you progress, exercise your wit, logic, and intuition to overcome the challenges that lie in your path. 
-
-Prepare to immerse yourself in the captivating world of "Realm of Enigmas" as you embark on a solitary adventure of exploration, discovery, and self-discovery. The fate of the realm rests in your hands, and only through your tenacity and astuteness will you unveil the secrets that lie within. Are you ready to step into the unknown and unravel the enigmas that await? The journey awaits, adventurer.
+Prepare to immerse yourself in the captivating world of "Realm of Enigmas" as you embark on a solitary adventure of exploration, discovery, and self-discovery. Are you ready to step into the unknown and unravel the enigmas that await? The journey awaits, adventurer.
 
 2. Features
-   
-- Engaging Gameplay: Immerse yourself in a rich and immersive storyline, filled with intriguing characters, hidden clues, and captivating challenges.
-- Exploration and Discovery: Embark on a thrilling adventure as you traverse through meticulously crafted environments that are teeming with mysteries to unravel. Explore dark caves, traverse dense forests, dive into the depths of underwater worlds, and venture through time-bending tunnels. Each location offers unique atmospheres and hidden secrets waiting to be discovered.
-- Immersive Descriptions: Immerse yourself in vivid descriptions that paint a detailed picture of the realm's landscapes, characters, and objects. Engage your imagination as you visualize the scenes, bringing the game world to life in your mind.
-- Item Collection and Management: Gather a diverse array of items throughout your journey, each with its own special abilities and uses. Strategically manage your inventory to overcome obstacles and unlock new areas.
-- Save and Load Progress: Experience the convenience and continuity of the save and load progress function in "Realm of Enigmas." Capture your game data with a single click, preserving your character's name, score, inventory items, and location. When you're ready to dive back into the adventure, seamlessly load your progress to pick up where you left off, ensuring a reliable and uninterrupted gaming experience. Create multiple save slots for flexible exploration, experiment with different choices, and uncover alternative outcomes. With this feature, you have the power to control your journey and delve deeper into the captivating mysteries that await you.
+- Save and Load Progress: A player can experience the convenience and continuity of the game by capturing his game data before quit the game. The game will preserve the name, score, inventory items, and current location of the player. When a player is ready to dive back into the adventure, he can load his progress to pick up where he left off, ensuring a reliable and uninterrupted gaming experience.
+- Unique Player Names: Each player can have a distinct and exclusive name for this game. If a new player tries to set their name and it matches an existing player's name, they will be prompted to choose a different name. This ensures that every player has their own individual identity. 
+- Item Collection and Management: Gather a diverse array of items throughout the journey, each with its own special abilities and uses. Strategically manage player's inventory to overcome obstacles and unlock new areas.
+- Exploration and Discovery: Embark on a thrilling adventure as the player traverse through meticulously crafted environments that are teeming with mysteries to unravel. Explore dark caves, traverse dense forests, dive into the depths of underwater worlds, and venture through time-bending tunnels. Each location offers unique atmospheres and hidden secrets waiting to be discovered.
+- Immersive Descriptions: A player can immersed themselves in vivid descriptions that paint a detailed picture of the realm's landscapes, characters, and objects. Engage his imagination as he visualize the scenes, bringing the game world to life in his mind.
 
 3. How to play
-- Navigate through the game using text-based commands and choices presented to you 
+- Before the game start, a brief storyline will be given to player.
+- Navigate through the game using text-based commands and choices.
 - Interact with the environment by examining location and collecting items.
-- Use your collected items strategically to overcome obstacles and unlock new areas.
+- Use collected items strategically to unlock new areas.
 - Pay attention to clues and hints provided throughout the game to progress and unravel the mysteries of the realm.
-- EXAMINE, TAKE, UNLOCK ... 
+- Key in a valid number in the menu given to perform action.
+- Action can be done by a player:
+   - Examine: Show the description of the current location.
+   - Show Inventory: Show the item(s) collected by the player.
+   - Collect Item: Collect the item specified by the player.
+   - Move: Player can choose to move to next location, previous location or remain at current location.
+   - Unlock the Next Location: Player must use the right item to unlock the next location.
+   - Quit: Player can choose to quit the game as he wishes. The current progress of user will be saved automatically.
+- If the last location is unlocked, tha player has won the game and overcome the challenges sucessfully!
 
 4. How object-oriented concepts were used in developing the game
    
