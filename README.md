@@ -90,10 +90,14 @@ The relationship between each class is shown in the UML diagram below.:
    Then, the player uses one of the items that he collected in the second location to unlock the third location and the details of the next location is given.
 
    ![Screenshot 2023-06-28 144018](https://github.com/ceeee33/Hackathon-2/assets/117928541/b65e1248-1664-4094-ae1c-1a393ea933c4)
-   The player is performing the same actions
+   The player is moving to the next room
 
    ![Screenshot 2023-06-28 144112](https://github.com/ceeee33/Hackathon-2/assets/117928541/c25e1d5f-28b4-4cb0-8e89-7b740bef94f2)
+   Now, the player wants to perform a move action, he chooses to move to the previous location and it works. 
+
    ![Screenshot 2023-06-28 144138](https://github.com/ceeee33/Hackathon-2/assets/117928541/44e30065-9803-4cdd-9834-d33beb091d2d)
+   The player then wishes to move to the next location. SInce the next location, he had unlocked previously, thus he is able to move to the next location.
+   
    ![Screenshot 2023-06-28 144203](https://github.com/ceeee33/Hackathon-2/assets/117928541/ada5b417-910f-4cb5-ba7d-3b1042254357)
    ![Screenshot 2023-06-28 144318](https://github.com/ceeee33/Hackathon-2/assets/117928541/68097d9a-dc9e-4b3f-90a7-1bf4cf77525c)
    At this location, player choose to unlock the next location by using “Photo”. Since there is no this item in the player’s inventory list, the player cannot unlock the next location.
