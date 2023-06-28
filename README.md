@@ -97,11 +97,20 @@ The relationship between each class is shown in the UML diagram below.:
    ![Screenshot 2023-06-28 144203](https://github.com/ceeee33/Hackathon-2/assets/117928541/ada5b417-910f-4cb5-ba7d-3b1042254357)
    ![Screenshot 2023-06-28 144318](https://github.com/ceeee33/Hackathon-2/assets/117928541/68097d9a-dc9e-4b3f-90a7-1bf4cf77525c)
    ![Screenshot 2023-06-28 144318](https://github.com/ceeee33/Hackathon-2/assets/117928541/aa055d09-696d-4739-ae43-b1b1a4beffad)
+   At this location, player choose to unlock the next location by using “Photo”. Since there is no this item in the player’s inventory list, the player cannot unlock the next location.
    ![Screenshot 2023-06-28 144415](https://github.com/ceeee33/Hackathon-2/assets/117928541/167cc8b1-419e-4b81-abcf-7383d9956bac)
+   After that, the player is trying to collect this item again from this location and use it to unlock the next location.
    ![Screenshot 2023-06-28 144509](https://github.com/ceeee33/Hackathon-2/assets/117928541/361460a8-2a7b-4e9e-905e-7fdcb9be9a37)
+   Congratulation! The last location is unlocked. No more location to explore.
+The player has won the game and the progress will be save to file. Although the player already unlock all of the location, but he can choose to collect more items that can increase his score.
+
+   After the progress has been saved, it will lead player to quit the game.
    ![Screenshot 2023-06-28 144929](https://github.com/ceeee33/Hackathon-2/assets/117928541/e2895452-cf71-4316-aa6c-15a172e5773a)
+   Right now, the same player runs the game.If the player is an existing player, when the player start the game, after entering his name, a function call “loadProgress()” will try to find whether the file based on the player’s name exist or not.. The “I found your file!” appear at game interface shows that the game contains the data of the player. It will starts to load the previous game data and set up the previously game situation to the player.
    ![Screenshot 2023-06-28 144948](https://github.com/ceeee33/Hackathon-2/assets/117928541/b1d3c3c5-4728-44df-8b5b-fec8d39bdebb)
+   Right now, the current location’s name and description will be shown at the game interface, representing the player’s previous last location. The player is trying to show his inventory. Luckily, the items collected by the player still remain in the inventory list.
    ![Screenshot 2023-06-28 145005](https://github.com/ceeee33/Hackathon-2/assets/117928541/7847c49d-fddc-4bc7-b6df-c2ae1f653c3b)
+   The player chooses to quit the game. A line is executed to ask whether the player wants to quit the game or not. If the player chooses yes. The current data of the player and the condition for each location will be saved to the file. After the file is closed, the game will be quit.
    
 
 
