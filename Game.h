@@ -514,18 +514,7 @@ bool Game::quit(){ // If return 1, quit the game
 		return 0;
 
 	}else{
-		bool save = 0;
-		cout << "Do you wish to save progress? " << endl;
-		cout << "If you save it, you can load your current progress when you play this game next time. " << endl << endl;
-		cout << "1: Yes" << endl;
-		cout << "0: No" << endl;
-		cout << ">";
-		cin >> save;
-
-		if(save==1){
-			saveProgress();
-		}
-
+		saveProgress();
 		cout << "Thanks for playing the game. See you next time! " << endl;
 		return 1;
 	}
