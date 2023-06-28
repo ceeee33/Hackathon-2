@@ -78,7 +78,7 @@ The relationship between each class is shown in the UML diagram below.:
    The player wished to perform move action, however, he failed to do so as he does not fulfilled the condition required.
    
    ![Screenshot 2023-06-28 143628](https://github.com/ceeee33/Hackathon-2/assets/117928541/25a0d8dd-9ee5-4ad5-912b-76d39276d54d)
-   The player is using the items in his inventory one by one to unlock the next location. Fortunately, one of the items that he had collected is the key item. So, he is able to unlock the next location. This program will automatically move the player to the next room once the player successfully unlocked the next location.
+   The player is using the items in his inventory to unlock the next location one by one . Fortunately, one of the items that he had collected is the key item. So, he is able to unlock the next location. This program will automatically move the player to the next room once the player successfully unlocked the next location.
 
    ![Screenshot 2023-06-28 143705](https://github.com/ceeee33/Hackathon-2/assets/117928541/8fa24305-50b3-492b-8364-b470f581704b)
    So, the name and description for the next location had given once they entered this location
